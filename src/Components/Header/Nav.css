@@ -1,10 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
-
 .header {
   height: 100vh;
   width: 100vw;
-  background-image: url(https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg);
+  background: bisque;
 }
 
 .nav-main {
@@ -35,7 +32,7 @@
 }
 
 .container-2 li:hover {
-  color: #fed136;
+  color: yellow;
 }
 
 .container-2 button {
@@ -65,7 +62,7 @@
   background: rgb(48, 46, 46);
   position: fixed;
   top: 0;
-  left: 0;
+  left: 100px;
   display: none;
 }
 
@@ -85,7 +82,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  font-family: "Montserrat", sans-serif;
+  font-family: sans-serif;
   cursor: pointer;
 }
 
@@ -107,7 +104,7 @@
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 911px) {
   .nav-main {
     height: 10vh;
     background: rgb(48, 46, 46);
