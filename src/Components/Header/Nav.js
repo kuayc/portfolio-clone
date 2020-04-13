@@ -30,7 +30,7 @@ export default class Nav extends Component {
         <div>
           <nav className="nav-main">
             <div className="container-1">
-              <h1>Start Bootstrap</h1>
+              <h1>Bootcamp</h1>
             </div>
             <div className="container-2">
               <ul>
