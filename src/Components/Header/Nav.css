@@ -3,7 +3,6 @@
   width: 100vw;
   background: bisque;
 }
-
 .nav-main {
   display: flex;
   justify-content: space-around;
@@ -11,13 +10,11 @@
   width: 100vw;
   height: 15vh;
 }
-
 .container-1 {
   font-size: 2rem;
   color: #fed136;
   font-family: "Kaushan Script", cursive;
 }
-
 .container-2 ul {
   display: flex;
   width: 40vw;
@@ -25,16 +22,13 @@
   font-family: "Montserrat", sans-serif;
   align-items: center;
 }
-
 .container-2 li {
   color: white;
   cursor: pointer;
 }
-
 .container-2 li:hover {
   color: yellow;
 }
-
 .container-2 button {
   width: 80px;
   height: 7vh;
@@ -53,7 +47,6 @@
 #hamburger {
   display: none;
 }
-
 .drop-down,
 .drop-down-open,
 .drop-down-closed {
@@ -65,17 +58,14 @@
   left: 100px;
   display: none;
 }
-
 .drop-down-open {
   display: block;
   animation: open 0.3s forwards linear;
 }
-
 .drop-down-closed {
   display: block;
   animation: closed 0.7s forwards linear;
 }
-
 .menu-content {
   height: 100%;
   color: white;
@@ -85,7 +75,6 @@
   font-family: sans-serif;
   cursor: pointer;
 }
-
 @keyframes open {
   from {
     transform: translateY(0px);
@@ -94,7 +83,6 @@
     transform: translateY(10vh);
   }
 }
-
 @keyframes closed {
   from {
     transform: translateY(10vh);
@@ -103,8 +91,7 @@
     transform: translateY(-20vh);
   }
 }
-
-@media (max-width: 911px) {
+@media (max-width: 800px) {
   .nav-main {
     height: 10vh;
     background: rgb(48, 46, 46);
@@ -125,8 +112,7 @@
     z-index: -1;
   }
 }
-
-@media (min-width: 991px) {
+@media (min-width: 900px) {
   .drop-down-open {
     display: none;
   }

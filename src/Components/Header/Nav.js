@@ -34,16 +34,16 @@ export default class Nav extends Component {
             </div>
             <div className="container-2">
               <ul>
-                <li>SERVICES</li>
-                <li>PORTFOLIO</li>
-                <li>ABOUT</li>
-                <li>TEAM</li>
-                <li>CONTACT</li>
+                <li>Services</li>
+                <li>Portfolio</li>
+                <li>About</li>
+                <li>Team</li>
+                <li>Contact</li>
                 <li id="hamburger">
                   <button onClick={this.toggle}>
                     <img
                       src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1200px-Hamburger_icon.svg.png"
-                      alt="hamburger"
+                      alt="ham"
                     ></img>
                   </button>
                 </li>
@@ -52,11 +52,11 @@ export default class Nav extends Component {
           </nav>
           <div className={`${this.state.status}`}>
             <div className="menu-content">
-              <h1>SERVICES</h1>
-              <h1>PORTFOLIO</h1>
-              <h1>ABOUT</h1>
-              <h1>TEAM</h1>
-              <h1>CONTACT</h1>
+              <h1>Services</h1>
+              <h1>Portfolio</h1>
+              <h1>About</h1>
+              <h1>Team</h1>
+              <h1>Contact</h1>
             </div>
           </div>
         </div>
