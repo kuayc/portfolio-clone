@@ -10,11 +10,9 @@ body {
   background-position: right top;
   background-attachment: scroll;
 }
-
 code {
   font-family: monospace;
 }
-
 @media (max-width: 911px) {
   body {
     background-size: 150%;
