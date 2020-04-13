@@ -30,7 +30,6 @@ nav {
   align-items: center;
   flex-direction: column;
 }
-
 .title {
   position: relative;
   margin-right: auto;
@@ -46,32 +45,25 @@ nav {
   border: none;
   display: none;
 }
-
 .nav-links {
   margin-right: 30px;
   font-size: 19px;
   color: tomato;
 }
-
 p {
-  margin-top: 30px;
+  margin-top: 10px;
 }
-
 .welcome1 {
   font-size: 50px;
 }
-
-.welcome2 {
-  font-size: 60px;
-}
-
 .tell-more {
   width: 20%;
   height: 10%;
-  margin-top: 30px;
+  margin-top: 10px;
   border-radius: 10%;
   border: none;
-  background: rgb(199, 153, 37);
+  background: blue;
+  color: aliceblue;
 }
 
 @media (max-width: 991px) {

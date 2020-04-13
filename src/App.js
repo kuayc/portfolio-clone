@@ -24,7 +24,6 @@ class App extends Component {
 
           <div className="welcome-container">
             <p className="welcome1">Welcome to DFW!</p>
-            <p className="welcome2">Nice to meet you</p>
             <button
               value="800"
               onClick={() => this.setScrollHeight()}
